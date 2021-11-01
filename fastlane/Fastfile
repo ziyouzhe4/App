@@ -14,7 +14,7 @@
 # update_fastlane
 import 'app_merge.rb'
 
-bundle exec fastlane app_merge
+# bundle exec fastlane app_merge
 
 default_platform(:ios)
 
