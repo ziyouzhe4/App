@@ -12,14 +12,17 @@
 
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
+import 'app_merge.rb'
+
+bundle exec fastlane app_merge
 
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
+
   lane :hello do
 
-  puts 'hello majianjie'
+    puts 'hello majianjie'
 
     # add actions here: https://docs.fastlane.tools/actions
   end
