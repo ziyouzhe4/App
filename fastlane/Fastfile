@@ -12,9 +12,9 @@
 
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
-import 'app_merge.rb'
+import 'module_branch_merge.rb'
 
-# bundle exec fastlane app_merge
+bundle exec fastlane module_branch_merge
 
 default_platform(:ios)
 
